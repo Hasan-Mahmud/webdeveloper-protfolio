@@ -98,14 +98,17 @@ nav a {
 }
 
 /* main section styles */
-
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
 /* About */
 .about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px 8;
+    margin: 130px 0px;
 }
 
 .section-title {
@@ -120,4 +123,13 @@ nav a {
 text-align: center;
 font-size: 18px;
 line-height: 30px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
 }
